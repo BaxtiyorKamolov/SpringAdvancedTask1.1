@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring-advanced-task1-1
+    password: root123
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
